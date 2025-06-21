@@ -1,0 +1,35 @@
+﻿@model QLCB.Models.ChungNhan
+
+@{
+    ViewData["Title"] = "Xóa chứng nhận";
+}
+
+<h2 class="text-danger">Xác nhận xóa</h2>
+
+<h4>Bạn có chắc chắn muốn xóa chứng nhận này?</h4>
+<hr />
+
+<div class="mb-3">
+    <dl class="row">
+        <dt class="col-sm-3">Mã chứng nhận</dt>
+        <dd class="col-sm-9">@Model.MaChungNhan</dd>
+
+        <dt class="col-sm-3">Mã nhân viên</dt>
+        <dd class="col-sm-9">@Model.MaNhanVien</dd>
+
+        <dt class="col-sm-3">Tên chứng nhận</dt>
+        <dd class="col-sm-9">@Model.TenChungNhan</dd>
+
+        <dt class="col-sm-3">Ngày cấp</dt>
+        <dd class="col-sm-9">@Model.NgayCap.ToString("dd/MM/yyyy")</dd>
+
+        <dt class="col-sm-3">Ngày hết hạn</dt>
+        <dd class="col-sm-9">@Model.NgayHetHan.ToString("dd/MM/yyyy")</dd>
+    </dl>
+</div>
+
+<form asp-action="Delete" method="post">
+    <input type="hidden" asp-for="MaChungNhan" />
+    <button type="submit" class="btn btn-danger">Xóa</button>
+    <a asp-action="Index" class="btn btn-secondary">Hủy</a>
+</form>

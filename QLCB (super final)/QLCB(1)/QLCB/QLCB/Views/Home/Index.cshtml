@@ -1,0 +1,128 @@
+﻿@{
+    ViewData["Title"] = "Đặt vé máy bay";
+}
+@model List<QLCB.Models.ViewModels.ChuyenBayViewModel> 
+<style>
+    .main-booking-card {
+        max-width: 900px;
+        margin: 40px auto 0 auto;
+        border-radius: 1.5rem;
+        box-shadow: 0 4px 32px rgba(0,0,0,0.10);
+        background: #fff;
+        padding: 2.5rem 2rem 2rem 2rem;
+    }
+    .booking-form-label {
+        font-weight: 500;
+        font-size: 1.1rem;
+    }
+    .flight-card {
+        border-radius: 1rem;
+        box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+        margin-bottom: 1.5rem;
+    }
+    .flight-card h5 {
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+    .flight-card .btn-success {
+        min-width: 100px;
+    }
+    .flight-card .col-md-4 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .booking-title {
+        font-size: 2rem;
+        font-weight: 700;
+        margin-bottom: 1.5rem;
+        color: #002D62;
+        text-align: center;
+    }
+    media (max-width: 768px) {
+        .main-booking-card { padding: 1rem; }
+        .booking-title { font-size: 1.3rem; }
+    }
+</style>
+
+<div class="main-booking-card">
+    <div class="booking-title">Đặt vé máy bay</div>
+    <form class="row g-3 mb-3" method="get" asp-controller="Home" asp-action="Index">
+        <div class="col-md-4">
+            <label class="form-label booking-form-label">Điểm khởi hành</label>
+            <input type="text" class="form-control" name="diemDi" placeholder="TP.HCM" value="@(ViewData["diemDi"] ?? "")">
+        </div>
+        <div class="col-md-4">
+            <label class="form-label booking-form-label">Điểm đến</label>
+            <input type="text" class="form-control" name="diemDen" placeholder="Hà Nội" value="@(ViewData["diemDen"] ?? "")">
+        </div>
+        <div class="col-md-2">
+            <label class="form-label booking-form-label">Ngày đi</label>
+            <input type="date" class="form-control" name="ngayDi" value="@(ViewData["ngayDi"] ?? "")">
+        </div>
+        <div class="col-md-2 d-flex align-items-end">
+            <button type="submit" class="btn btn-primary w-100 fw-bold">Tìm chuyến</button>
+        </div>
+    </form>
+    @if (TempData["Success"] != null)
+    {
+        <div class="alert alert-success" role="alert">
+            @TempData["Success"]
+        </div>
+    }
+    @if (TempData["Error"] != null)
+    {
+        <div class="alert alert-danger" role="alert">
+            @TempData["Error"]
+        </div>
+    }
+    @if (User.Identity.IsAuthenticated)
+    {
+        <div class="d-flex justify-content-end mb-2">
+            <a href="/Home/VeDaDat" class="btn btn-success fw-bold">Xem vé đã đặt</a>
+        </div>
+    }
+    <h4 class="mb-3 mt-4">Danh sách chuyến bay</h4>
+    @if (Model.Count == 0)
+    {
+        <div class="alert alert-info">Không tìm thấy chuyến bay phù hợp.</div>
+    }
+    @foreach (var cb in Model)
+    {
+        <div class="card flight-card">
+            <div class="card-body row">
+                <div class="col-md-4">
+                    <h5><i class="fas fa-plane-departure text-primary me-2"></i>@cb.MaChuyenBay - @cb.TenChuyenBay</h5>
+                    <p class="mb-1"><i class="fas fa-map-marker-alt text-danger"></i> @cb.TenSanBayDi → @cb.TenSanBayDen</p>
+                </div>
+                <div class="col-md-4">
+                    <p class="mb-1">
+                        <strong>Khởi hành:</strong> @cb.ThoiGianKhoiHanh
+                    </p>
+                    <p class="mb-1">
+                        <strong>Đến nơi:</strong> @cb.ThoiGianDen
+                    </p>
+                </div>
+                <div class="col-md-4 text-end">
+                    <p class="mb-1">
+                        <strong>Số ghế:</strong> @cb.SoGhe
+                    </p>
+                    <p class="mb-1">
+                        <strong>Giá vé:</strong> @(cb.VeBays.FirstOrDefault() != null ? string.Format("{0:N0}₫", cb.VeBays.First().GiaVe) : "-")
+                    </p>
+                    <p class="mb-1">
+                        <strong>Ghế còn trống:</strong> @(cb.SoGhe - cb.VeBays.Count(v => !string.IsNullOrWhiteSpace(v.MaHanhKhach)))
+                    </p>
+                    @if (User.Identity.IsAuthenticated && (cb.SoGhe - cb.VeBays.Count(v => !string.IsNullOrWhiteSpace(v.MaHanhKhach))) > 0)
+                    {
+                        <form asp-action="DatVe" asp-controller="Home" method="post" class="d-inline">
+                            @Html.AntiForgeryToken()
+                            <input type="hidden" name="maChuyenBay" value="@cb.MaChuyenBay" />
+                            <button type="submit" class="btn btn-success fw-bold">Đặt vé</button>
+                        </form>
+                    }
+                </div>
+            </div>
+        </div>
+    }
+</div>

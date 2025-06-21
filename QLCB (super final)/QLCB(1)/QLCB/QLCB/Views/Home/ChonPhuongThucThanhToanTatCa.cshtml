@@ -1,0 +1,21 @@
+@{
+    ViewData["Title"] = "Chọn phương thức thanh toán";
+}
+<h2>Chọn phương thức thanh toán cho tất cả vé</h2>
+<div class="alert alert-info">
+    Số lượng vé chưa thanh toán: <strong>@ViewBag.SoLuong</strong><br />
+    Tổng tiền: <strong>@string.Format("{0:N0}₫", ViewBag.TongTien)</strong>
+</div>
+<form asp-action="ThanhToanTatCa" asp-controller="Home" method="post">
+    @Html.AntiForgeryToken()
+    <div class="mb-3">
+        <label for="paymentMethod" class="form-label">Phương thức thanh toán</label>
+        <select name="paymentMethod" id="paymentMethod" class="form-control" required>
+            <option value="">-- Chọn phương thức --</option>
+            <option value="Tiền mặt">Tiền mặt</option>
+            <option value="Chuyển khoản">Chuyển khoản</option>
+        </select>
+    </div>
+    <button type="submit" class="btn btn-success">Xác nhận thanh toán tất cả</button>
+    <a asp-action="VeDaDat" class="btn btn-secondary ms-2">Hủy</a>
+</form> 

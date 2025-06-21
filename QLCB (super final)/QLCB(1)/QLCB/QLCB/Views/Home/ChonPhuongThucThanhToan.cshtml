@@ -1,0 +1,19 @@
+@model QLCB.Models.VeBay
+@{
+    ViewData["Title"] = "Chọn phương thức thanh toán";
+}
+<h2>Chọn phương thức thanh toán cho vé @Model.MaVeBay</h2>
+<form asp-action="ThanhToan" asp-controller="Home" method="post">
+    @Html.AntiForgeryToken()
+    <input type="hidden" name="maVeBay" value="@Model.MaVeBay" />
+    <div class="mb-3">
+        <label for="paymentMethod" class="form-label">Phương thức thanh toán</label>
+        <select name="paymentMethod" id="paymentMethod" class="form-control" required>
+            <option value="">-- Chọn phương thức --</option>
+            <option value="Tiền mặt">Tiền mặt</option>
+            <option value="Chuyển khoản">Chuyển khoản</option>
+        </select>
+    </div>
+    <button type="submit" class="btn btn-success">Xác nhận thanh toán</button>
+    <a asp-action="VeDaDat" class="btn btn-secondary ms-2">Hủy</a>
+</form> 

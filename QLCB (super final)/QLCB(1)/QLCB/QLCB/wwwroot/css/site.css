@@ -1,0 +1,43 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.bg-dark-blue-custom {
+    background-color: #002D62 !important; /* Màu xanh đậm tùy chỉnh */
+}
+
+/* Đảm bảo chữ màu trắng trên navbar */
+.navbar-nav .nav-item .nav-link.btn-link {
+    color: #FFFFFF !important;
+}
+
+.btn-yellow-login {
+    background-color: #ffffff !important; /* Màu vàng Gold */
+    color: #343a40 !important; /* Màu chữ và icon tối */
+    border-color: #ffffff !important;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+}
+
+.btn-yellow-login i {
+    color: #343a40 !important; /* Đảm bảo icon cũng màu tối */
+}

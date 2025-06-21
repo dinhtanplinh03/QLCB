@@ -1,0 +1,99 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - QLCB</title>
+
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/png" href="/favicon.ico" />
+    <style>
+        .navbar-brand img { height: 36px; margin-right: 10px; }
+        .main-bg {
+            background: linear-gradient(135deg, #e0e7ef 0%, #f8fafc 100%);
+            min-height: 100vh;
+        }
+        .card-custom {
+            border-radius: 1rem;
+            box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+        }
+        .footer-custom {
+            background: #002D62;
+            color: #fff;
+            padding: 1.5rem 0 0.5rem 0;
+        }
+        .footer-custom a { color: #ffd700; }
+    </style>
+</head>
+<body class="main-bg">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark-blue-custom shadow-sm py-3">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center fw-bold text-white" href="@Url.Action("Index", "Home")">
+                    <i class="fas fa-plane-departure fa-2x me-2"></i>
+                    QLCB - MyFly
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="mainNavbar">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        @if (User.IsInRole("Admin") || User.IsInRole("Employee"))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-white" asp-area="Admin" asp-controller="ChuyenBay" asp-action="Index"><i class="fas fa-plane"></i> Chuyến bay</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" asp-area="Admin" asp-controller="NhanVien" asp-action="Index"><i class="fas fa-users"></i> Nhân viên</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" asp-area="Admin" asp-controller="SanBay" asp-action="Index"><i class="fas fa-map-marker-alt"></i> Sân bay</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" asp-area="Admin" asp-controller="MayBay" asp-action="Index"><i class="fas fa-fighter-jet"></i> Máy bay</a>
+                            </li>
+                        }
+                    </ul>
+                    <partial name="_LoginPartial" />
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container py-4">
+        @if (TempData["SuccessMessage"] != null)
+        {
+            <div class="alert alert-success alert-dismissible fade show" role="alert">
+                <i class="fas fa-check-circle me-2"></i>@TempData["SuccessMessage"]
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+        }
+        @if (TempData["ErrorMessage"] != null)
+        {
+            <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                <i class="fas fa-exclamation-triangle me-2"></i>@TempData["ErrorMessage"]
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+        }
+        <div class="card card-custom p-4 mb-4">
+            @RenderBody()
+        </div>
+    </main>
+
+    <footer class="footer-custom text-center mt-5">
+        <div class="container">
+            <div class="mb-2">
+                <a href="/" class="fw-bold text-decoration-none">QLCB - MyFly</a> &copy; 2024. All rights reserved.
+            </div>
+            <div class="small">Thiết kế bởi đội ngũ QLCB. Liên hệ: <a href="mailto:support@qlcb.vn">support@qlcb.vn</a></div>
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

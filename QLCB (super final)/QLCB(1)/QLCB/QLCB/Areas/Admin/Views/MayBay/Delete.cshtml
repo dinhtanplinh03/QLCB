@@ -1,0 +1,28 @@
+﻿@model QLCB.Models.MayBay
+
+@{
+    ViewData["Title"] = "Xóa máy bay";
+}
+
+<h2 class="text-danger">Xác nhận xóa máy bay</h2>
+<h4>Bạn có chắc chắn muốn xóa máy bay này?</h4>
+<hr />
+
+<div class="mb-3">
+    <dl class="row">
+        <dt class="col-sm-3">Mã máy bay</dt>
+        <dd class="col-sm-9">@Model.MaMayBay</dd>
+
+        <dt class="col-sm-3">Loại máy bay</dt>
+        <dd class="col-sm-9">@Model.LoaiMayBay</dd>
+
+        <dt class="col-sm-3">Loại máy bay</dt>
+        <dd class="col-sm-9">@Model.LoaiMayBay</dd>
+    </dl>
+</div>
+
+<form asp-action="Delete" method="post">
+    <input type="hidden" asp-for="MaMayBay" />
+    <button type="submit" class="btn btn-danger">Xóa</button>
+    <a asp-action="Index" class="btn btn-secondary">Hủy</a>
+</form>

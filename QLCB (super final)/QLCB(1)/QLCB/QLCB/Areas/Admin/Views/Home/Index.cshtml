@@ -1,0 +1,99 @@
+@{
+    ViewData["Title"] = "Bảng điều khiển quản trị";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="container py-4">
+    <h1 class="display-5 mb-4 text-center">Bảng điều khiển quản trị</h1>
+    <div class="row justify-content-center mb-4">
+        <div class="col-md-6">
+            <input type="text" id="searchInput" class="form-control form-control-lg" placeholder="Tìm kiếm chức năng quản trị..." onkeyup="filterCards()" />
+        </div>
+    </div>
+    <div class="row" id="adminFunctionCards">
+        <div class="col-md-4 mb-4 admin-card">
+            <div class="card h-100 shadow-sm">
+                <div class="card-body text-center">
+                    <i class="fas fa-plane fa-2x text-primary mb-2"></i>
+                    <h5 class="card-title">Quản lý chuyến bay</h5>
+                    <p class="card-text">Xem, thêm, sửa, xóa các chuyến bay.</p>
+                    <a asp-area="Admin" asp-controller="ChuyenBay" asp-action="Index" class="btn btn-primary">Truy cập</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4 admin-card">
+            <div class="card h-100 shadow-sm">
+                <div class="card-body text-center">
+                    <i class="fas fa-users fa-2x text-success mb-2"></i>
+                    <h5 class="card-title">Quản lý nhân viên</h5>
+                    <p class="card-text">Quản lý thông tin, phân quyền nhân viên.</p>
+                    <a asp-area="Admin" asp-controller="NhanVien" asp-action="Index" class="btn btn-success">Truy cập</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4 admin-card">
+            <div class="card h-100 shadow-sm">
+                <div class="card-body text-center">
+                    <i class="fas fa-map-marker-alt fa-2x text-danger mb-2"></i>
+                    <h5 class="card-title">Quản lý sân bay</h5>
+                    <p class="card-text">Thêm, sửa, xóa các sân bay.</p>
+                    <a asp-area="Admin" asp-controller="SanBay" asp-action="Index" class="btn btn-danger">Truy cập</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4 admin-card">
+            <div class="card h-100 shadow-sm">
+                <div class="card-body text-center">
+                    <i class="fas fa-fighter-jet fa-2x text-info mb-2"></i>
+                    <h5 class="card-title">Quản lý máy bay</h5>
+                    <p class="card-text">Quản lý danh sách, thông tin máy bay.</p>
+                    <a asp-area="Admin" asp-controller="MayBay" asp-action="Index" class="btn btn-info">Truy cập</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4 admin-card">
+            <div class="card h-100 shadow-sm">
+                <div class="card-body text-center">
+                    <i class="fas fa-user-shield fa-2x text-warning mb-2"></i>
+                    <h5 class="card-title">Quản lý người dùng</h5>
+                    <p class="card-text">Tạo, phân quyền, quản lý tài khoản người dùng.</p>
+                    <a asp-area="Admin" asp-controller="User" asp-action="Index" class="btn btn-warning">Truy cập</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4 admin-card">
+            <div class="card h-100 shadow-sm">
+                <div class="card-body text-center">
+                    <i class="fas fa-tasks fa-2x text-secondary mb-2"></i>
+                    <h5 class="card-title">Phân công nhân viên</h5>
+                    <p class="card-text">Phân công, sắp xếp lịch làm việc cho nhân viên.</p>
+                    <a asp-area="Admin" asp-controller="PhanCong" asp-action="Index" class="btn btn-secondary">Truy cập</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4 admin-card">
+            <div class="card h-100 shadow-sm">
+                <div class="card-body text-center">
+                    <i class="fas fa-certificate fa-2x text-dark mb-2"></i>
+                    <h5 class="card-title">Quản lý chứng nhận</h5>
+                    <p class="card-text">Quản lý chứng nhận, bằng cấp của nhân viên.</p>
+                    <a asp-area="Admin" asp-controller="ChungNhan" asp-action="Index" class="btn btn-dark">Truy cập</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+function filterCards() {
+    var input = document.getElementById('searchInput');
+    var filter = input.value.toLowerCase();
+    var cards = document.getElementsByClassName('admin-card');
+    for (var i = 0; i < cards.length; i++) {
+        var card = cards[i];
+        var text = card.innerText.toLowerCase();
+        card.style.display = text.indexOf(filter) > -1 ? '' : 'none';
+    }
+}
+</script>
+ 

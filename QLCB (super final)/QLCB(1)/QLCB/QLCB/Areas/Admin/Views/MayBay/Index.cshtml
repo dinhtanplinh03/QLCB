@@ -1,0 +1,49 @@
+﻿@model IEnumerable<QLCB.Models.MayBay>
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@{
+    ViewData["Title"] = "Danh sách máy bay";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>Danh sách máy bay</h1>
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">@TempData["SuccessMessage"]</div>
+}
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger">@TempData["ErrorMessage"]</div>
+}
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Thêm mới</a>
+</p>
+
+<table class="table table-bordered table-striped">
+    <thead class="table-dark text-center">
+        <tr>
+            <th>Mã máy bay</th>
+            <th>Loại máy bay</th>
+            <th>Tầm bay (km)</th>
+            <th>Trạng thái</th> <!-- ✅ Thêm cột trạng thái -->
+            <th style="width: 200px;">Hành động</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr class="text-center">
+                <td>@item.MaMayBay</td>
+                <td>@item.LoaiMayBay</td>
+                <td>@item.TamBay</td>
+                <td>@(string.IsNullOrEmpty(item.TrangThai) ? "Không xác định" : item.TrangThai)</td> <!-- ✅ Hiển thị trạng thái -->
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.MaMayBay" class="btn btn-warning btn-sm">Sửa</a>
+                    <a asp-action="Delete" asp-route-id="@item.MaMayBay" class="btn btn-danger btn-sm">Xóa</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

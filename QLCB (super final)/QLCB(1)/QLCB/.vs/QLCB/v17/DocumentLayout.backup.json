@@ -1,0 +1,385 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\phuon\\Downloads\\QLCB (super final)\\QLCB(1)\\QLCB\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|c:\\users\\phuon\\downloads\\qlcb (super final)\\qlcb(1)\\qlcb\\qlcb\\controllers\\vebaycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|solutionrelative:qlcb\\controllers\\vebaycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|c:\\users\\phuon\\downloads\\qlcb (super final)\\qlcb(1)\\qlcb\\qlcb\\views\\vebay\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|solutionrelative:qlcb\\views\\vebay\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|c:\\users\\phuon\\downloads\\qlcb (super final)\\qlcb(1)\\qlcb\\qlcb\\helpers\\qrcodegeneratorhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|solutionrelative:qlcb\\helpers\\qrcodegeneratorhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|c:\\users\\phuon\\downloads\\qlcb (super final)\\qlcb(1)\\qlcb\\qlcb\\qlcb.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|solutionrelative:qlcb\\qlcb.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|c:\\users\\phuon\\downloads\\qlcb (super final)\\qlcb(1)\\qlcb\\qlcb\\areas\\admin\\views\\sanbay\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|solutionrelative:qlcb\\areas\\admin\\views\\sanbay\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|c:\\users\\phuon\\downloads\\qlcb (super final)\\qlcb(1)\\qlcb\\qlcb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|solutionrelative:qlcb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|c:\\users\\phuon\\downloads\\qlcb (super final)\\qlcb(1)\\qlcb\\qlcb\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|solutionrelative:qlcb\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|c:\\users\\phuon\\downloads\\qlcb (super final)\\qlcb(1)\\qlcb\\qlcb\\areas\\admin\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|solutionrelative:qlcb\\areas\\admin\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|c:\\users\\phuon\\downloads\\qlcb (super final)\\qlcb(1)\\qlcb\\qlcb\\areas\\admin\\views\\sanbay\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|solutionrelative:qlcb\\areas\\admin\\views\\sanbay\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|c:\\users\\phuon\\downloads\\qlcb (super final)\\qlcb(1)\\qlcb\\qlcb\\areas\\admin\\views\\maybay\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|solutionrelative:qlcb\\areas\\admin\\views\\maybay\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|c:\\users\\phuon\\downloads\\qlcb (super final)\\qlcb(1)\\qlcb\\qlcb\\areas\\admin\\views\\maybay\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|solutionrelative:qlcb\\areas\\admin\\views\\maybay\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|c:\\users\\phuon\\downloads\\qlcb (super final)\\qlcb(1)\\qlcb\\qlcb\\areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|solutionrelative:qlcb\\areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|c:\\users\\phuon\\downloads\\qlcb (super final)\\qlcb(1)\\qlcb\\qlcb\\areas\\admin\\views\\chungnhan\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|solutionrelative:qlcb\\areas\\admin\\views\\chungnhan\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|c:\\users\\phuon\\downloads\\qlcb (super final)\\qlcb(1)\\qlcb\\qlcb\\areas\\admin\\views\\chungnhan\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|solutionrelative:qlcb\\areas\\admin\\views\\chungnhan\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|c:\\users\\phuon\\downloads\\qlcb (super final)\\qlcb(1)\\qlcb\\qlcb\\areas\\identity\\pages\\account\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|solutionrelative:qlcb\\areas\\identity\\pages\\account\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|c:\\users\\phuon\\downloads\\qlcb (super final)\\qlcb(1)\\qlcb\\qlcb\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|solutionrelative:qlcb\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|c:\\users\\phuon\\downloads\\qlcb (super final)\\qlcb(1)\\qlcb\\qlcb\\areas\\admin\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|solutionrelative:qlcb\\areas\\admin\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|c:\\users\\phuon\\downloads\\qlcb (super final)\\qlcb(1)\\qlcb\\qlcb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|solutionrelative:qlcb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|c:\\users\\phuon\\downloads\\qlcb (super final)\\qlcb(1)\\qlcb\\qlcb\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|solutionrelative:qlcb\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|c:\\users\\phuon\\downloads\\qlcb (super final)\\qlcb(1)\\qlcb\\qlcb\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|solutionrelative:qlcb\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|c:\\users\\phuon\\downloads\\qlcb (super final)\\qlcb(1)\\qlcb\\qlcb\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|solutionrelative:qlcb\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\phuon\\Downloads\\QLCB (super final)\\QLCB(1)\\QLCB\\QLCB\\Views\\VeBay\\Details.cshtml",
+              "RelativeDocumentMoniker": "QLCB\\Views\\VeBay\\Details.cshtml",
+              "ToolTip": "C:\\Users\\phuon\\Downloads\\QLCB (super final)\\QLCB(1)\\QLCB\\QLCB\\Views\\VeBay\\Details.cshtml",
+              "RelativeToolTip": "QLCB\\Views\\VeBay\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-21T04:26:27.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "VeBayController.cs",
+              "DocumentMoniker": "C:\\Users\\phuon\\Downloads\\QLCB (super final)\\QLCB(1)\\QLCB\\QLCB\\Controllers\\VeBayController.cs",
+              "RelativeDocumentMoniker": "QLCB\\Controllers\\VeBayController.cs",
+              "ToolTip": "C:\\Users\\phuon\\Downloads\\QLCB (super final)\\QLCB(1)\\QLCB\\QLCB\\Controllers\\VeBayController.cs",
+              "RelativeToolTip": "QLCB\\Controllers\\VeBayController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBsAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T04:24:33.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "QRCodeGeneratorHelper.cs",
+              "DocumentMoniker": "C:\\Users\\phuon\\Downloads\\QLCB (super final)\\QLCB(1)\\QLCB\\QLCB\\Helpers\\QRCodeGeneratorHelper.cs",
+              "RelativeDocumentMoniker": "QLCB\\Helpers\\QRCodeGeneratorHelper.cs",
+              "ToolTip": "C:\\Users\\phuon\\Downloads\\QLCB (super final)\\QLCB(1)\\QLCB\\QLCB\\Helpers\\QRCodeGeneratorHelper.cs",
+              "RelativeToolTip": "QLCB\\Helpers\\QRCodeGeneratorHelper.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAcwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T04:13:55.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "QLCB",
+              "DocumentMoniker": "C:\\Users\\phuon\\Downloads\\QLCB (super final)\\QLCB(1)\\QLCB\\QLCB\\QLCB.csproj",
+              "RelativeDocumentMoniker": "QLCB\\QLCB.csproj",
+              "ToolTip": "C:\\Users\\phuon\\Downloads\\QLCB (super final)\\QLCB(1)\\QLCB\\QLCB\\QLCB.csproj",
+              "RelativeToolTip": "QLCB\\QLCB.csproj",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-21T04:13:30.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\phuon\\Downloads\\QLCB (super final)\\QLCB(1)\\QLCB\\QLCB\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "QLCB\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\phuon\\Downloads\\QLCB (super final)\\QLCB(1)\\QLCB\\QLCB\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "QLCB\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-21T04:10:16.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\phuon\\Downloads\\QLCB (super final)\\QLCB(1)\\QLCB\\QLCB\\Areas\\Admin\\Views\\SanBay\\Index.cshtml",
+              "RelativeDocumentMoniker": "QLCB\\Areas\\Admin\\Views\\SanBay\\Index.cshtml",
+              "ToolTip": "C:\\Users\\phuon\\Downloads\\QLCB (super final)\\QLCB(1)\\QLCB\\QLCB\\Areas\\Admin\\Views\\SanBay\\Index.cshtml",
+              "RelativeToolTip": "QLCB\\Areas\\Admin\\Views\\SanBay\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-21T04:07:37.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\phuon\\Downloads\\QLCB (super final)\\QLCB(1)\\QLCB\\QLCB\\Areas\\Admin\\Views\\MayBay\\Index.cshtml",
+              "RelativeDocumentMoniker": "QLCB\\Areas\\Admin\\Views\\MayBay\\Index.cshtml",
+              "ToolTip": "C:\\Users\\phuon\\Downloads\\QLCB (super final)\\QLCB(1)\\QLCB\\QLCB\\Areas\\Admin\\Views\\MayBay\\Index.cshtml",
+              "RelativeToolTip": "QLCB\\Areas\\Admin\\Views\\MayBay\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-21T04:07:26.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\phuon\\Downloads\\QLCB (super final)\\QLCB(1)\\QLCB\\QLCB\\Areas\\Admin\\Views\\MayBay\\Create.cshtml",
+              "RelativeDocumentMoniker": "QLCB\\Areas\\Admin\\Views\\MayBay\\Create.cshtml",
+              "ToolTip": "C:\\Users\\phuon\\Downloads\\QLCB (super final)\\QLCB(1)\\QLCB\\QLCB\\Areas\\Admin\\Views\\MayBay\\Create.cshtml",
+              "RelativeToolTip": "QLCB\\Areas\\Admin\\Views\\MayBay\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-21T04:07:18.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\phuon\\Downloads\\QLCB (super final)\\QLCB(1)\\QLCB\\QLCB\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "QLCB\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\phuon\\Downloads\\QLCB (super final)\\QLCB(1)\\QLCB\\QLCB\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "QLCB\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-21T04:07:10.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_AdminLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\phuon\\Downloads\\QLCB (super final)\\QLCB(1)\\QLCB\\QLCB\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeDocumentMoniker": "QLCB\\Views\\Shared\\_AdminLayout.cshtml",
+              "ToolTip": "C:\\Users\\phuon\\Downloads\\QLCB (super final)\\QLCB(1)\\QLCB\\QLCB\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeToolTip": "QLCB\\Views\\Shared\\_AdminLayout.cshtml",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAEgAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-21T04:06:17.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\phuon\\Downloads\\QLCB (super final)\\QLCB(1)\\QLCB\\QLCB\\Areas\\Admin\\Views\\User\\Index.cshtml",
+              "RelativeDocumentMoniker": "QLCB\\Areas\\Admin\\Views\\User\\Index.cshtml",
+              "ToolTip": "C:\\Users\\phuon\\Downloads\\QLCB (super final)\\QLCB(1)\\QLCB\\QLCB\\Areas\\Admin\\Views\\User\\Index.cshtml",
+              "RelativeToolTip": "QLCB\\Areas\\Admin\\Views\\User\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-21T04:07:50.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\phuon\\Downloads\\QLCB (super final)\\QLCB(1)\\QLCB\\QLCB\\Areas\\Admin\\Views\\SanBay\\Edit.cshtml",
+              "RelativeDocumentMoniker": "QLCB\\Areas\\Admin\\Views\\SanBay\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\phuon\\Downloads\\QLCB (super final)\\QLCB(1)\\QLCB\\QLCB\\Areas\\Admin\\Views\\SanBay\\Edit.cshtml",
+              "RelativeToolTip": "QLCB\\Areas\\Admin\\Views\\SanBay\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-21T04:07:43.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\phuon\\Downloads\\QLCB (super final)\\QLCB(1)\\QLCB\\QLCB\\Areas\\Admin\\Views\\ChungNhan\\Delete.cshtml",
+              "RelativeDocumentMoniker": "QLCB\\Areas\\Admin\\Views\\ChungNhan\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\phuon\\Downloads\\QLCB (super final)\\QLCB(1)\\QLCB\\QLCB\\Areas\\Admin\\Views\\ChungNhan\\Delete.cshtml",
+              "RelativeToolTip": "QLCB\\Areas\\Admin\\Views\\ChungNhan\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-21T04:07:06.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\phuon\\Downloads\\QLCB (super final)\\QLCB(1)\\QLCB\\QLCB\\Areas\\Admin\\Views\\ChungNhan\\Create.cshtml",
+              "RelativeDocumentMoniker": "QLCB\\Areas\\Admin\\Views\\ChungNhan\\Create.cshtml",
+              "ToolTip": "C:\\Users\\phuon\\Downloads\\QLCB (super final)\\QLCB(1)\\QLCB\\QLCB\\Areas\\Admin\\Views\\ChungNhan\\Create.cshtml",
+              "RelativeToolTip": "QLCB\\Areas\\Admin\\Views\\ChungNhan\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-21T04:06:44.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\phuon\\Downloads\\QLCB (super final)\\QLCB(1)\\QLCB\\QLCB\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "QLCB\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\phuon\\Downloads\\QLCB (super final)\\QLCB(1)\\QLCB\\QLCB\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+              "RelativeToolTip": "QLCB\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-21T04:06:36.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\phuon\\Downloads\\QLCB (super final)\\QLCB(1)\\QLCB\\QLCB\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "QLCB\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\phuon\\Downloads\\QLCB (super final)\\QLCB(1)\\QLCB\\QLCB\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "QLCB\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB8AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-21T00:41:07.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\phuon\\Downloads\\QLCB (super final)\\QLCB(1)\\QLCB\\QLCB\\Areas\\Admin\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "QLCB\\Areas\\Admin\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\phuon\\Downloads\\QLCB (super final)\\QLCB(1)\\QLCB\\QLCB\\Areas\\Admin\\Controllers\\UserController.cs",
+              "RelativeToolTip": "QLCB\\Areas\\Admin\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T23:22:35.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\phuon\\Downloads\\QLCB (super final)\\QLCB(1)\\QLCB\\QLCB\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "QLCB\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ToolTip": "C:\\Users\\phuon\\Downloads\\QLCB (super final)\\QLCB(1)\\QLCB\\QLCB\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeToolTip": "QLCB\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAvwHEAAACLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T23:16:30.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\phuon\\Downloads\\QLCB (super final)\\QLCB(1)\\QLCB\\QLCB\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "QLCB\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\phuon\\Downloads\\QLCB (super final)\\QLCB(1)\\QLCB\\QLCB\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "QLCB\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-20T23:16:28.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\phuon\\Downloads\\QLCB (super final)\\QLCB(1)\\QLCB\\QLCB\\Program.cs",
+              "RelativeDocumentMoniker": "QLCB\\Program.cs",
+              "ToolTip": "C:\\Users\\phuon\\Downloads\\QLCB (super final)\\QLCB(1)\\QLCB\\QLCB\\Program.cs",
+              "RelativeToolTip": "QLCB\\Program.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAApwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T23:09:16.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ApplicationDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\phuon\\Downloads\\QLCB (super final)\\QLCB(1)\\QLCB\\QLCB\\Models\\ApplicationDBContext.cs",
+              "RelativeDocumentMoniker": "QLCB\\Models\\ApplicationDBContext.cs",
+              "ToolTip": "C:\\Users\\phuon\\Downloads\\QLCB (super final)\\QLCB(1)\\QLCB\\QLCB\\Models\\ApplicationDBContext.cs",
+              "RelativeToolTip": "QLCB\\Models\\ApplicationDBContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T23:06:24.705Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
